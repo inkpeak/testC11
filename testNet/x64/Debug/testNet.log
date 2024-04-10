@@ -1,0 +1,29 @@
+﻿  main.cpp
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testNet\testServer.cpp(6,1): warning C4005: “_WINSOCK_DEPRECATED_NO_WARNINGS”: 宏重定义
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testNet\testClient.cpp(1): message : 参见“_WINSOCK_DEPRECATED_NO_WARNINGS”的前一个定义
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testNet\testServer.cpp(141,47): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  testClient.cpp
+  正在生成代码...
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testNet\testClient.cpp(32): warning C4715: “testSend”: 不是所有的控件路径都返回值
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testNet\testClient.cpp(19): warning C4715: “testConn”: 不是所有的控件路径都返回值
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testNet\testClient.cpp(47): warning C4715: “testRecv”: 不是所有的控件路径都返回值
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testNet\testClient.cpp(19): warning C4715: “testConn”: 不是所有的控件路径都返回值
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testNet\testClient.cpp(32): warning C4715: “testSend”: 不是所有的控件路径都返回值
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testNet\testServer.cpp(43): warning C4715: “test01”: 不是所有的控件路径都返回值
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testNet\testClient.cpp(47): warning C4715: “testRecv”: 不是所有的控件路径都返回值
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testNet\testServer.cpp(105): warning C4715: “test04”: 不是所有的控件路径都返回值
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testNet\testServer.cpp(147): warning C4715: “test06”: 不是所有的控件路径都返回值
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testNet\testServer.cpp(171): warning C4715: “test07”: 不是所有的控件路径都返回值
+LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/FORCE”规范)
+testServer.obj : warning LNK4006: "int __cdecl test01(void)" (?test01@@YAHXZ) 已在 main.obj 中定义；已忽略第二个定义
+testServer.obj : warning LNK4006: "unsigned __int64 __cdecl test02(void)" (?test02@@YA_KXZ) 已在 main.obj 中定义；已忽略第二个定义
+testServer.obj : warning LNK4006: "struct sockaddr_in __cdecl test03(unsigned __int64,char const * const,int)" (?test03@@YA?AUsockaddr_in@@_KQEBDH@Z) 已在 main.obj 中定义；已忽略第二个定义
+testServer.obj : warning LNK4006: "int __cdecl test04(unsigned __int64)" (?test04@@YAH_K@Z) 已在 main.obj 中定义；已忽略第二个定义
+testServer.obj : warning LNK4006: "unsigned __int64 __cdecl test05(unsigned __int64)" (?test05@@YA_K_K@Z) 已在 main.obj 中定义；已忽略第二个定义
+testServer.obj : warning LNK4006: "int __cdecl test06(unsigned __int64,unsigned __int64)" (?test06@@YAH_K0@Z) 已在 main.obj 中定义；已忽略第二个定义
+testServer.obj : warning LNK4006: "int __cdecl test07(unsigned __int64,char * const)" (?test07@@YAH_KQEAD@Z) 已在 main.obj 中定义；已忽略第二个定义
+testClient.obj : warning LNK4006: "int __cdecl testConn(unsigned __int64,struct sockaddr_in)" (?testConn@@YAH_KUsockaddr_in@@@Z) 已在 main.obj 中定义；已忽略第二个定义
+testClient.obj : warning LNK4006: "int __cdecl testRecv(unsigned __int64,char * const)" (?testRecv@@YAH_KQEAD@Z) 已在 main.obj 中定义；已忽略第二个定义
+testClient.obj : warning LNK4006: "int __cdecl testSend(unsigned __int64,char * const,int)" (?testSend@@YAH_KQEADH@Z) 已在 main.obj 中定义；已忽略第二个定义
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\x64\Debug\testNet.exe : warning LNK4088: 因 /FORCE 选项生成了映像；映像可能不能运行
+  testNet.vcxproj -> C:\Users\maker\Desktop\vs\cpp\c11\testC11\x64\Debug\testNet.exe

@@ -1,0 +1,75 @@
+﻿  exam.cpp
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testC11\exam.cpp(125,1): warning C4267: “参数”: 从“size_t”转换到“const _Elem”，可能丢失数据
+          with
+          [
+              _Elem=char
+          ]
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testC11\exam.cpp(318,8): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testC11\exam.cpp(346,15): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testC11\exam.cpp(349,14): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testC11\exam.cpp(352,18): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testC11\exam.cpp(355,18): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testC11\exam.cpp(519,3): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testC11\exam.cpp(520,3): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testC11\exam.cpp(632,8): warning C4101: “c”: 未引用的局部变量
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testC11\exam.cpp(804,17): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testC11\exam.cpp(806,15): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testC11\exam.cpp(809,7): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testC11\exam.cpp(822,11): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testC11\exam.cpp(975,1): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testC11\exam.cpp(1029,1): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testC11\exam.cpp(1043,1): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testC11\exam.cpp(1095,14): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testC11\exam.cpp(1098,14): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testC11\exam.cpp(1206,1): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  exam3.cpp
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testC11\exam3.cpp(18,16): warning C4244: “初始化”: 从“double”转换到“const int”，可能丢失数据
+  main.cpp
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testC11\exam3.cpp(18,16): warning C4244: “初始化”: 从“double”转换到“const int”，可能丢失数据
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testC11\exam.cpp(125,1): warning C4267: “参数”: 从“size_t”转换到“const _Elem”，可能丢失数据
+          with
+          [
+              _Elem=char
+          ]
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testC11\exam.cpp(318,8): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testC11\exam.cpp(346,15): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testC11\exam.cpp(349,14): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testC11\exam.cpp(352,18): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testC11\exam.cpp(355,18): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testC11\exam.cpp(519,3): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testC11\exam.cpp(520,3): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testC11\exam.cpp(632,8): warning C4101: “c”: 未引用的局部变量
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testC11\exam.cpp(804,17): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testC11\exam.cpp(806,15): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testC11\exam.cpp(809,7): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testC11\exam.cpp(822,11): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testC11\exam.cpp(975,1): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testC11\exam.cpp(1029,1): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testC11\exam.cpp(1043,1): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testC11\exam.cpp(1095,14): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testC11\exam.cpp(1098,14): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testC11\exam.cpp(1206,1): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\testC11\main.cpp(16,11): warning C4101: “a”: 未引用的局部变量
+  testptr.cpp
+  正在生成代码...
+main.obj : error LNK2005: "int __cdecl testTemplate::sum<int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (??$sum@HV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@testTemplate@@YAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z) 已经在 exam.obj 中定义
+main.obj : error LNK2005: "void __cdecl exam3::init(int)" (?init@exam3@@YAXH@Z) 已经在 exam3.obj 中定义
+main.obj : error LNK2005: "void __cdecl exam3::out(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?out@exam3@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z) 已经在 exam3.obj 中定义
+main.obj : error LNK2005: "int __cdecl testTemplate::sum(int,int)" (?sum@testTemplate@@YAHHH@Z) 已经在 exam.obj 中定义
+main.obj : error LNK2005: "void __cdecl exam3::test1(void)" (?test1@exam3@@YAXXZ) 已经在 exam3.obj 中定义
+main.obj : error LNK2005: "void __cdecl exam::test1(class std::basic_istream<char,struct std::char_traits<char> > &)" (?test1@exam@@YAXAEAV?$basic_istream@DU?$char_traits@D@std@@@std@@@Z) 已经在 exam.obj 中定义
+main.obj : error LNK2005: "void __cdecl testTemplate::test1(void)" (?test1@testTemplate@@YAXXZ) 已经在 exam.obj 中定义
+main.obj : error LNK2005: "void __cdecl test_class::test1(void)" (?test1@test_class@@YAXXZ) 已经在 exam.obj 中定义
+main.obj : error LNK2005: "void __cdecl exam3::test2(void)" (?test2@exam3@@YAXXZ) 已经在 exam3.obj 中定义
+main.obj : error LNK2005: "void __cdecl exam::test2(void)" (?test2@exam@@YAXXZ) 已经在 exam.obj 中定义
+main.obj : error LNK2005: "void __cdecl testTemplate::test2(void)" (?test2@testTemplate@@YAXXZ) 已经在 exam.obj 中定义
+main.obj : error LNK2005: "void __cdecl exam::test3(void)" (?test3@exam@@YAXXZ) 已经在 exam.obj 中定义
+main.obj : error LNK2005: "void __cdecl testTemplate::test3(void)" (?test3@testTemplate@@YAXXZ) 已经在 exam.obj 中定义
+main.obj : error LNK2005: "void __cdecl test_class::test3(void)" (?test3@test_class@@YAXXZ) 已经在 exam.obj 中定义
+main.obj : error LNK2005: "void __cdecl exam::test4(void)" (?test4@exam@@YAXXZ) 已经在 exam.obj 中定义
+main.obj : error LNK2005: "void __cdecl exam::test5(void)" (?test5@exam@@YAXXZ) 已经在 exam.obj 中定义
+main.obj : error LNK2005: "void __cdecl exam::test6(void)" (?test6@exam@@YAXXZ) 已经在 exam.obj 中定义
+main.obj : error LNK2005: "int __cdecl exam3::test(void)" (?test@exam3@@YAHXZ) 已经在 exam3.obj 中定义
+main.obj : error LNK2005: "void __cdecl exam3::timepp(int)" (?timepp@exam3@@YAXH@Z) 已经在 exam3.obj 中定义
+main.obj : error LNK2005: "void __cdecl test_class::tset2(void)" (?tset2@test_class@@YAXXZ) 已经在 exam.obj 中定义
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\x64\Debug\testC11.exe : fatal error LNK1169: 找到一个或多个多重定义的符号

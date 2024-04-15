@@ -1,0 +1,4 @@
+﻿  test.cpp
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\example\examString.cpp(38,1): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\example\examString.cpp(82,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  Sample-Test1.vcxproj -> C:\Users\maker\Desktop\vs\cpp\c11\testC11\x64\Debug\gtTestforExample.exe

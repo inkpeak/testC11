@@ -4,9 +4,6 @@
 #include"examString.cpp" 
 #include"head.h"
 
-void test() {
-
-}
 
 void testRemoveDuplicates() { 
 	vector<int>nums;
@@ -25,7 +22,7 @@ void testMajorityElement() {
 	Solution s1;
 	int i = s1.majorityElement(nums);
 }
- 
+
 void testmaxProfit() {
 	vector<int>nums;
 	nums = { 1,2 };
@@ -35,7 +32,29 @@ void testmaxProfit() {
 	int i = s1.maxProfit(nums);
 
 }
+void testromanToInt() {
+	string s;
+	s = "III";
+	s = "LVIII";
+	s = "MCMXCIV";
+	Solution s1;
+	int i = s1.romanToInt(s);
 
+}
+
+
+void testlengthOfLastWord() { 
+	string s;
+	s = "   fly me   to   the moon  ";
+	s = "luffy is still joyboy"; 
+	s = "a";
+	Solution s1;
+	int i = s1.lengthOfLastWord(s);
+}
+
+void test() {
+
+}
 int main() {
-	testmaxProfit();
+	testlengthOfLastWord();
 }

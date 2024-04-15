@@ -139,12 +139,37 @@ public:
 	C 可以放在 D (500) 和 M (1000) 的左边，来表示 400 和 900。
 	*/
 	int romanToInt(string s) {
-		int num, sum = 0;
-		char ch;
+		/*
+		unordered_map<char, int> symbolValues = {
+        {'I', 1},
+        {'V', 5},
+        {'X', 10},
+        {'L', 50},
+        {'C', 100},
+        {'D', 500},
+        {'M', 1000},
+		 };
+	 
+		int ans = 0;
+        int n = s.length();
+        for (int i = 0; i < n; ++i) {
+            int value = symbolValues[s[i]];
+            if (i < n - 1 && value < symbolValues[s[i + 1]]) {
+                ans -= value;
+            } else {
+                ans += value;
+            }
+        }
+        return ans;
+
+作者：力扣官方题解
+链接：https://leetcode.cn/problems/roman-to-integer/solutions/774992/luo-ma-shu-zi-zhuan-zheng-shu-by-leetcod-w55p/
+ 
+		*/
+		int sum = 0; 
 		while (s.length() != 0)
-		{
-			ch = s[0];
-			switch (ch)
+		{ 
+			switch (s[0])
 			{
 			case 'I': {
 				if (s.length() >= 2) {
@@ -155,6 +180,10 @@ public:
 					else if (s[1] == 'X') {
 						sum += 9;
 						s.erase(0, 2);
+					}
+					else {
+						sum += 1;
+						s.erase(0, 1);
 					}
 				}
 				else {
@@ -169,7 +198,6 @@ public:
 			}break;
 
 			case 'X': {
-
 				if (s.length() >= 2) {
 					if (s[1] == 'L') {
 						sum += 40;
@@ -179,16 +207,19 @@ public:
 						sum += 90;
 						s.erase(0, 2);
 					}
+					else {
+						sum += 10;
+						s.erase(0, 1);
+					}
 				}
 				else {
 					sum += 10;
 					s.erase(0, 1);
 				}
-
 			}break;
 
 			case 'L': {
-				sum += 5;
+				sum += 50;
 				s.erase(0, 1);
 			}break;
 
@@ -202,24 +233,47 @@ public:
 						sum += 900;
 						s.erase(0, 2);
 					}
+					else {
+						sum += 100;
+						s.erase(0, 1);
+					}
 				}
 				else {
 					sum += 100;
 					s.erase(0, 1);
 				}
-
 			}break;
 
 			case 'D': {
 				sum += 500;
 				s.erase(0, 1);
-
 			}break;
+
 			case 'M': {
 				sum += 1000;
 				s.erase(0, 1);
 			}break;
 			}
-		}
+		} 
+		return sum;
 	}
+
+	//给你一个字符串 s,由若干单词组成,单词前后用一些空格字符隔开.
+	//返回字符串中 最后一个 单词的长度
+	int lengthOfLastWord(string s) { 
+		int num = 0;
+		int i = s.length()-1;
+		while (i >= 0) {
+			if (s[i] == ' ' && num != 0) {
+				return num;
+			}
+			if (s[i] != ' ') {
+				num++;
+			}
+			i--;
+		}
+		return num; 
+	}
+
+
 };

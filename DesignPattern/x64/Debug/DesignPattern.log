@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\DesignPattern\main.cpp(13,10): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\DesignPattern\main.cpp(21,7): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  DesignPattern.vcxproj -> C:\Users\maker\Desktop\vs\cpp\c11\testC11\x64\Debug\DesignPattern.exe

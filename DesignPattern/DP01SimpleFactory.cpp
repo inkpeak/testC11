@@ -18,80 +18,82 @@
 * 
 */
 
-
-//运算抽象类
-class Operations
-{
-public:
-	double _numberA = 0;
-	double _numberB = 0;
-
-	void set(double a, double b)
+namespace DP01 {
+	//运算抽象类
+	class Operations
 	{
-		_numberA = a;
-		_numberB = b;
-	}
-	virtual double GetResult() { return 0; }
-};
+	public:
+		double _numberA = 0;
+		double _numberB = 0;
 
-//加法类
-class OperationAdd : public Operations
-{
-public:
-	double GetResult()
-	{
-		return _numberA + _numberB;
-	}
-};
-
-//减法类
-class OperationSub : public Operations
-{
-public:
-	double GetResult()
-	{
-		return _numberA - _numberB;
-	}
-};
-
-//乘法类
-class OperationMul : public Operations
-{
-public:
-	double GetResult()
-	{
-		return _numberA * _numberB;
-	}
-};
-
-//除法类
-class OperationDiv : public Operations
-{
-public:
-	double GetResult()
-	{
-		if (_numberB == 0)
-			throw std::exception("除数为0");
-		else
+		void set(double a, double b)
 		{
-			return _numberA / _numberB;
+			_numberA = a;
+			_numberB = b;
 		}
-	}
-};
+		virtual double GetResult() { return 0; }
+	};
 
-
-class AbsFactory
-{
-public:
-	static Operations* createOperate(char operate)
+	//加法类
+	class OperationAdd : public Operations
 	{
-		Operations* oper = nullptr;
+	public:
+		double GetResult()
+		{
+			return _numberA + _numberB;
+		}
+	};
 
-		if ('+' == operate) oper = new OperationAdd();
-		if ('-' == operate) oper = new OperationSub();
-		if ('*' == operate) oper = new OperationMul();
-		if ('/' == operate) oper = new OperationDiv();
+	//减法类
+	class OperationSub : public Operations
+	{
+	public:
+		double GetResult()
+		{
+			return _numberA - _numberB;
+		}
+	};
 
-		return oper;
-	} 
-};
+	//乘法类
+	class OperationMul : public Operations
+	{
+	public:
+		double GetResult()
+		{
+			return _numberA * _numberB;
+		}
+	};
+
+	//除法类
+	class OperationDiv : public Operations
+	{
+	public:
+		double GetResult()
+		{
+			if (_numberB == 0)
+				throw std::exception("除数为0");
+			else
+			{
+				return _numberA / _numberB;
+			}
+		}
+	};
+
+
+	class AbsFactory
+	{
+	public:
+		static Operations* createOperate(char operate)
+		{
+			Operations* oper = nullptr;
+
+			if ('+' == operate) oper = new OperationAdd();
+			if ('-' == operate) oper = new OperationSub();
+			if ('*' == operate) oper = new OperationMul();
+			if ('/' == operate) oper = new OperationDiv();
+
+			return oper;
+		}
+	};
+
+}

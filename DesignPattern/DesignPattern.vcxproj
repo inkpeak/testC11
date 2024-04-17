@@ -139,12 +139,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DP08Facade.cpp" />
+    <ClCompile Include="DP09Builder.cpp" />
+    <ClCompile Include="DP10PublishSubscribe.cpp" />
+    <ClCompile Include="DP11AbstractFactory.cpp" />
+    <ClCompile Include="DP12State.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="DP01SimpleFactory.cpp" />
     <ClCompile Include="DP02Strategy.cpp" />
+    <ClCompile Include="DP03Decorator.cpp" />
+    <ClCompile Include="DP04Proxy.cpp" />
+    <ClCompile Include="DP05FactoryMethod.cpp" />
+    <ClCompile Include="DP06Prototype.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="heads.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -24,10 +24,40 @@
     <ClCompile Include="DP02Strategy.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="DP03Decorator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DP04Proxy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DP05FactoryMethod.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DP06Prototype.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DP08Facade.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DP09Builder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DP10PublishSubscribe.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DP11AbstractFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DP12State.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="heads.h">
       <Filter>头文件</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
 </Project>

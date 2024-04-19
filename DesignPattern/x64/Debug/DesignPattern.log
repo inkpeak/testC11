@@ -1,4 +1,17 @@
-﻿  main.cpp
-C:\Users\maker\Desktop\vs\cpp\c11\testC11\DesignPattern\main.cpp(22,10): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
-C:\Users\maker\Desktop\vs\cpp\c11\testC11\DesignPattern\main.cpp(30,7): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+﻿  DP24Visitor.cpp
+  main.cpp
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\DesignPattern\DP14Memento.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\DesignPattern\DP16Iterator.cpp(107,1): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\DesignPattern\main.cpp(36,10): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\DesignPattern\main.cpp(44,7): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\DesignPattern\main.cpp(192,9): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
+  DP06Prototype.cpp
+  正在生成代码...
+LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/FORCE”规范)
+main.obj : warning LNK4006: "class Expression * __cdecl analyse(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?analyse@@YAPEAVExpression@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 已在 DP23Interpreter.obj 中定义；已忽略第二个定义
+main.obj : warning LNK4006: "void __cdecl release(class Expression *)" (?release@@YAXPEAVExpression@@@Z) 已在 DP23Interpreter.obj 中定义；已忽略第二个定义
+main.obj : warning LNK4006: "private: static class Singleton * Singleton::instance" (?instance@Singleton@@0PEAV1@EA) 已在 DP17Singleton.obj 中定义；已忽略第二个定义
+main.obj : warning LNK4006: "private: static class Singleton1 * Singleton1::g_pinstance" (?g_pinstance@Singleton1@@0PEAV1@EA) 已在 DP17Singleton.obj 中定义；已忽略第二个定义
+main.obj : warning LNK4006: "private: static struct std::once_flag Singleton1::singletonFlag" (?singletonFlag@Singleton1@@0Uonce_flag@std@@A) 已在 DP17Singleton.obj 中定义；已忽略第二个定义
+C:\Users\maker\Desktop\vs\cpp\c11\testC11\x64\Debug\DesignPattern.exe : warning LNK4088: 因 /FORCE 选项生成了映像；映像可能不能运行
   DesignPattern.vcxproj -> C:\Users\maker\Desktop\vs\cpp\c11\testC11\x64\Debug\DesignPattern.exe

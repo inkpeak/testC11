@@ -1,6 +1,7 @@
 #include "pch.h"
 #include"../example/examString.cpp"
 #include<vector>
+//googleµ¥Ôª²âÊÔ Á·Ï°
 using namespace std;
 
 class SolutionTest :public testing::Test {

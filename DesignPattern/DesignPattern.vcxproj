@@ -120,6 +120,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalOptions>/FORCE:MULTIPLE %(AdditionalOptions)</AdditionalOptions>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -139,11 +140,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DP07TemplateMethod.cpp" />
     <ClCompile Include="DP08Facade.cpp" />
     <ClCompile Include="DP09Builder.cpp" />
     <ClCompile Include="DP10PublishSubscribe.cpp" />
     <ClCompile Include="DP11AbstractFactory.cpp" />
     <ClCompile Include="DP12State.cpp" />
+    <ClCompile Include="DP13Adapter.cpp" />
+    <ClCompile Include="DP14Memento.cpp" />
+    <ClCompile Include="DP15Composite.cpp" />
+    <ClCompile Include="DP16Iterator.cpp" />
+    <ClCompile Include="DP17Singleton.cpp" />
+    <ClCompile Include="DP18Bridge.cpp" />
+    <ClCompile Include="DP19Command.cpp" />
+    <ClCompile Include="DP20ChainOfResponsibility.cpp" />
+    <ClCompile Include="DP21Mediator.cpp" />
+    <ClCompile Include="DP22Flyweight.cpp" />
+    <ClCompile Include="DP23Interpreter.cpp" />
+    <ClCompile Include="DP24Visitor.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="DP01SimpleFactory.cpp" />
     <ClCompile Include="DP02Strategy.cpp" />
@@ -154,9 +168,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="heads.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

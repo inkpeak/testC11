@@ -2,12 +2,12 @@
 #ifndef THREAD_POOL_H
 #define THREAD_POOL_H
 
-#include <vector>
-#include <queue>
 #include <atomic>
 #include <future> 
-#include <stdexcept> 
 #include<iostream>
+#include <queue>
+#include <stdexcept> 
+#include <vector>
 
 using std::cout;
 using std::endl;
@@ -26,7 +26,7 @@ using std::runtime_error;
 //工作任务函数
 void fun1(int slp)
 {
-	cout << "  hello, fun1 !  " << std::this_thread::get_id() << endl;
+	cout << "  hello, fun1 !  " << std::this_thread::get_id()<<"\n" << endl;
 	//printf("  hello, fun1 !  %d\n", std::this_thread::get_id());
 	if (slp > 0) {
 		cout << "======= fun1 sleep " << slp << " =========  " << std::this_thread::get_id() << endl;
@@ -48,12 +48,14 @@ struct gfun {
 class A {    //函数必须是 static 的才能使用线程池
 public:
 	static int Afun(int n = 0) {
-		std::cout << n << "  hello, Afun !  " << std::this_thread::get_id() << std::endl;
+		std::cout << n << "  hello, Afun !  " << std::this_thread::get_id()
+			<< "\n" << std::endl;
 		return n;
 	}
 
 	static std::string Bfun(int n, std::string str, char c) {
-		std::cout << n << "  hello, Bfun !  " << str.c_str() << "  " << (int)c << "  " << std::this_thread::get_id() << std::endl;
+		std::cout << n << "  hello, Bfun !  " << str.c_str() << "  " 
+			<< (int)c << "  " << std::this_thread::get_id() << "\n" << std::endl;
 		return str;
 	}
 };

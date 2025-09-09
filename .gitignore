@@ -1,0 +1,32 @@
+# 编译输出目录
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+
+# Visual Studio 用户特定文件
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Visual Studio 缓存/选项目录
+.vs/
+
+# 生成结果
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+*.pdb
+*.lib
+*.dll
+*.exe
+
+# NuGet 包目录
+packages/
+*.nupkg
+
+# 其他
+_ReSharper.*/
+*.DotSettings.user
+*.cachefile
